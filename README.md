@@ -52,3 +52,29 @@ Volg de onderstaande stappen om het project lokaal te installeren en uit te voer
    ```bash
    git clone https://github.com/jouw-username/Personal_Trainer_App.git
    cd Personal_Trainer_App/frontend
+
+   Installeer de benodigde pakketten:
+bash
+Copy code
+npm install
+Backend Installatie (Directus)
+Ga naar de directus map:
+bash
+Copy code
+cd ../directus
+Start de Docker-container:
+bash
+Copy code
+docker-compose up -d
+Start de Frontend
+Ga terug naar de frontend:
+bash
+Copy code
+cd ../frontend
+Start de Svelte-app:
+bash
+Copy code
+npm run dev
+Open je browser en ga naar http://localhost:5000.
+Licentie
+Dit project is gelicenseerd onder de MIT-licentie - zie het LICENSE bestand voor details.
